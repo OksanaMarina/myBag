@@ -1,5 +1,10 @@
 "use strict";
 
-const  isChecked = true,
-     isClose = false;
-console.log(isChecked || isClose);
+let user = {
+  name: "Джон",
+  go: function () {
+    alert(this.name);
+  },
+};
+
+user.go(); // ошибка!
