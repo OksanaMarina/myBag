@@ -1,10 +1,9 @@
-"use strict";
-
-let user = {
-  name: "Джон",
-  go: function () {
-    alert(this.name);
+let ladder = {
+  step: 0,
+  up() {
+    this.step++;
+    alert(this);
   },
 };
 
-user.go(); // ошибка!
+ladder.up();
