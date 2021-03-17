@@ -7,3 +7,4 @@ let ladder = {
 };
 
 ladder.up();
+console.log(ladder);
