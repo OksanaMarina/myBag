@@ -1,10 +1,12 @@
-let ladder = {
-  step: 0,
-  up() {
-    this.step++;
-    alert(this);
-  },
-};
+const nuberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?",0);
+const personalMovieDB = {
+  count:numberOfFilms,
+  movies:moviesV = {},
+  actors:actorsV = {},
+  genres:genresA = [],
+  privat:false,
 
-ladder.up();
-console.log(ladder);
+}
+const lastFilm = prompt("Один из последних просмотренных фильмовф?","название");
+const evaluateFilm = +prompt("На сколько оцените его?",0);
+moviesV[lastFilm:evaluateFilm];
