@@ -9,4 +9,6 @@ const personalMovieDB = {
 }
 const lastFilm = prompt("Один из последних просмотренных фильмовф?","название");
 const evaluateFilm = +prompt("На сколько оцените его?",0);
-moviesV[lastFilm:evaluateFilm];
+moviesV[lastFilm];
+lastFilm[evaluateFilm];
+
