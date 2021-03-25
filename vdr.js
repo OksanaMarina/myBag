@@ -18,3 +18,4 @@ const lastFilm = prompt("Один из последних просмотренн
     personalMovieDB.movies[lastFilm1] = evaluateFilm1;
 console.log(personalMovieDB);
 
+
