@@ -1,4 +1,5 @@
 "use strict";
+/*
 let numberOfFilms;
 
 function start() {
@@ -64,4 +65,22 @@ function writeYourGenres() {
 
 }
 writeYourGenres();
+*/
 
+const personalMovieDB = {
+    count: this.numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false,
+    start(){
+          let numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", 0);
+        while (numberOfFilms == "" || numberOfFilms == null || isNaN(numberOfFilms)) {
+            numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", 0);
+        }
+return numberOfFilms
+    }
+
+}
+personalMovieDB.start()
+console.log(personalMovieDB);

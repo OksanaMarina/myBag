@@ -1,8 +1,16 @@
-function learnJS(lang, callback) {
-    console.log(`Я учу: ${lang}`);
-    callback();
+"use strict";
+const soldier = {
+    helth: 400,
+    armor: 500,
+    sayHi: function () {
+        console.log("Есть Сер!");
+    }
 }
-function Done() {
-    console.log('Я прошел этот урок');
+
+const john = {
+    helth: 100
 }
-learnJS('JavaScript', Done);
+john.__proto__= soldier;
+console.log(john
+);
+john.sayHi();
